@@ -1,0 +1,355 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0px;
+}
+
+.info-text .services-info{
+    font-family:'Times New Roman', Times, serif;
+}
+
+.info-text h1{
+    color: white;
+    font-size: 5vw;
+    text-shadow: 4px 4px 5px rgb(68, 67, 67);
+}
+
+.info-text p, .services-info p{
+    color: white;
+    line-height: 1; 
+    font-size: 3vw;
+    margin: 2vw 2vw;
+    padding-bottom: 20px;
+    text-shadow: 1.5px 1.5px rgb(68, 67, 67);
+}
+
+.services-info p{
+    line-height: 1;
+}
+
+.stylerow-top{
+    padding-right: 8px;
+    height: 55px;
+}
+
+.stylerow-bottom{
+    padding-right: 8px;
+    height: 35px;
+}
+
+
+/* ---- Navigation Bar ---- */
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-light .navbar-brand img{
+    width: 25vw;
+}
+
+h3{
+    text-align: left;
+    text-shadow: 4px 4px 4px #212529;
+}
+
+.navbar{
+    background-color: wheat;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #212529;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+    font-weight:500;
+}
+
+.navbar-nav li {
+    padding: 0px;
+}
+
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+}
+
+.nav-link:hover{
+    font-weight: 700 !important;
+}
+
+.container-fluid.no-padding{
+    padding: 0px;
+}
+
+/* End of navigation bar */
+
+.img-container{
+    height: fit-content;
+    background-image: url(Home-BG.jpeg);
+}
+
+.inside-vertical-line{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: none;
+    height: 27%;
+}
+
+.inside-horizontal-line{
+    position: absolute;
+    right: 8px;
+    top: 25%;
+    background: none;
+    border-bottom: 8px solid darkgreen;
+    width: 25%;
+}
+
+.row{
+    --bs-gutter-x: 0rem;
+}
+
+.sm-bg-img{
+    background-color: #53c8c6b4;
+    height: fit-content;
+}
+
+.right-container{
+    height: fit-content;
+    text-align: left;
+    line-height: 10px;
+}
+
+.profile-pic img{
+    margin-top: 30%;
+    margin-right: 5%;
+    margin-left: 5%;
+    box-shadow: 9px 9px 12px rgb(70, 69, 69);
+    height: auto;
+    width: 90%;
+}
+
+.container-info{
+    height: fit-content;
+}
+
+.info-text{
+    border-left: 10px solid white; 
+    height: 86%; 
+    padding-left: 15px; 
+    padding-right: 15px;
+    margin-top: 7%;
+    box-shadow: inset 1px 0px rgb(68 67 67);
+}
+
+.btn:hover{
+    width: 60px;
+}
+
+.btn img{
+    width: 45px;
+}
+
+button{
+    background-color: inherit;
+    color: white;
+    border: none;
+    text-shadow: 1px 1px rgb(68, 67, 67);
+    font-size: 3.5vw;
+}
+
+button:hover{
+    color: wheat;
+}
+
+.services-info {
+    border-left: 10px solid white;
+    height: fit-content;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    box-shadow: inset 1px 0px rgb(68, 67, 67);
+}
+
+.services-container ul{
+    line-height: 1.2;
+    color: white;
+    text-shadow: 1px 1px rgb(68, 67, 67);
+    font-size: 1.5vw;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 90%;
+}
+
+.services-img, .baytna-img{
+    width: 95%;
+    height: 90%; 
+    margin-left: 5%;
+    box-shadow: 9px 9px 12px rgb(70, 69, 69);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.services-container p{
+    font-size: 1.5vw;
+    margin: 1.2vw 0px;
+    color: white;
+    text-shadow: 1px 1px rgb(68, 67, 67);
+}
+
+#manipulative p{
+    padding-top: 5%;
+    padding-left: 5%;
+    
+}
+
+.left-container{
+    display: flex;
+    align-items: center;
+    font-size: 6vw;
+    color: white;
+    text-shadow: 4px 4px 5px rgb(68, 67, 67);
+    text-align: center;
+}
+
+.right-info {
+    border-left: 10px solid white;
+    height: fit-content;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    box-shadow: inset 1px 0px rgb(68 67 67);
+    line-height: 1.2;
+    color: white;
+    text-shadow: 1.5px 1.5px rgb(68, 67, 67);
+    font-size: 1.8vw;
+    text-align: center;
+}
+
+input[type="submit" i], input[type="reset" i] {
+    background-color: white;
+    padding: 2px;
+    border: 1px solid black;
+    width: 10vw;
+}
+
+input, textarea{
+    box-shadow: 5px 5px 12px rgb(70, 69, 69);
+    border-top: none;
+    border-left: none;
+    width: 80%;
+}
+
+textarea{
+    width: 75%;
+}
+
+table{
+    width: 90%;
+    margin: auto;
+}
+
+th{
+    border: 2px solid white;
+    padding: 1vw;
+    font-size: 2vw;
+}
+
+td{
+    border: 2px solid white;
+    padding: 0.5vw;
+}
+
+
+@media (max-width: 576px){
+    .services-img, .baytna-img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .navbar-light .navbar-brand img{
+        width: 60vw;
+    }
+    .right-vertical {
+        display: none;
+    }
+    .inside-horizontal-line {
+        display: none;
+    }
+    .sm-bg-img {
+        top: 30px;
+        height: auto;
+    }
+    
+    .profile-pic img{
+        margin-top: 5%;
+        margin-left: 17%;
+        width: 66%;
+    }
+    .right-container{
+        text-align: center;
+    }
+    .info-text {
+        border: none;
+    }
+    .info-text h1 {
+        font-size: 8vw;
+    }
+    .info-text p {
+        font-size: 4vw;
+    }
+    .bg-img {
+        width: 100%;
+        height: 600px;
+    }
+    .stylerow-top {
+        border-left: none;
+    }
+    .services-container p{
+        font-size: 4vw;
+    }
+    .services-container ul {
+        font-size: 4vw;
+    }
+    button{
+        font-size: 7vw;
+        margin-top: 10px;
+    }
+    .services-info {
+        border: none;
+    }
+    #manipulative p{
+        padding-top: 0px;
+    }
+    .left-container {
+        display:initial;
+        margin-top: 10px;
+    }
+    .parkinson{
+        margin-top: 0px;
+    }
+    .page-title{
+        margin-bottom: 0px;
+        font-size: 9vw;
+    }
+    .right-info {
+        border: none;
+        font-size: 4vw;
+    }
+    input{
+        width: 95%;
+    }
+    input[type="submit" i], input[type="reset" i] {
+        width: 25vw;
+    }    
+    th{
+        font-size: 5vw;
+    }
+
+}
